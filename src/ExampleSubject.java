@@ -27,8 +27,7 @@ public class ExampleSubject implements Subject {
         }
     }
 
-    public void updateInformation(DataPack information)
-    {;
+    public void updateInformation(DataPack information) {
         this.information = information;
         notifyObservers();
     }
